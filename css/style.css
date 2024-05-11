@@ -11,8 +11,13 @@ body {
   background: #ffffff;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 400;
-body {
+}
 
+/* Hide Scrolllbar */
+body::-webkit-scrollbar{
+  scrollbar-width: none;
+  display: none;
+}
 .ubuntu-light {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -446,6 +451,10 @@ footer {
   background: #f1c11a;
 }
 
+/* Disabled Horizontal resize */
+#msg{
+  resize: vertical;
+}
 
 /* footer section  */
 footer {
